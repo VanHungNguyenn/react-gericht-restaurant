@@ -1,3 +1,4 @@
+/* eslint-disable import/no-anonymous-default-export */
 import images from './images'
 
 const wines = [
@@ -79,4 +80,4 @@ const awards = [
 	},
 ]
 
-export { wines, cocktails, awards }
+export default { wines, cocktails, awards }
